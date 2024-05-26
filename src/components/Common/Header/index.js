@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 
 function Header() {
   const [darkMode, setDarkMode] = useState(
-    localStorage.getItem("theme") == "dark" ? true : false
+    localStorage.getItem("theme") == "dark" ? false : true
   );
 
   useEffect(() => {
